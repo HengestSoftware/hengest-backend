@@ -1,0 +1,38 @@
+# Entorno virtual y dependencias
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Variables de entorno y secretos
+.env
+.env.local
+*.env
+
+# Base de datos local
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos estáticos y medios
+staticfiles/
+media/
+
+# Logs
+*.log
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Pruebas y cobertura
+.coverage
+htmlcov/
+.pytest_cache/
